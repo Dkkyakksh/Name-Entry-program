@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible", content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>data entry </title>
+</head>
+<body>
+    <main>
+        <label for="name-input">Name:</label>
+        <input type="text" id="name-input">
+        <button id="add-btn">Add name</button> 
+        <br><br><br><br><br>
+        <div>
+            <input placeholder="Search by Name" id="search-input">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <section hidden id = "update-row">
+            <label for="update-name-input">New Name:</label>
+            <input type="text" id="update-name-input">
+            <button id="update-row-btn">Update</button>
+        </section>
+
+        <table id="name-list">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Date added</th>
+                <th>Delete</th>
+                <th>Edit</th>
+                </th>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
